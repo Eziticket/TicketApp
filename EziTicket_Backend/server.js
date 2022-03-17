@@ -18,7 +18,7 @@ const busTripRoute = require("./routes/busTripRouter");
 const complaintRoute = require("./routes/complaintRoute");
 const paymentRoute = require("./routes/paymentRoute");
 const guestRoute = require("./routes/guestRoute");
-const bookingHistoryRoute = require("./routes/userBookingHistory")
+const bookingHistoryRoute = require("./routes/userBookingHistory");
 const auth = require("./middleWares/auth");
 const errors = require("./middleWares/error");
 
