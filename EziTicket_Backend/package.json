@@ -8,6 +8,10 @@
     "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "v16.14.0",
+    "npm": "8.3.1"
+  },
   "author": "AdmirerBrown",
   "license": "ISC",
   "dependencies": {
