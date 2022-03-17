@@ -5,7 +5,7 @@
   "main": "server.js",  
   "scripts": {
     "start": "cd ./EziTicket_Backend && node server.js",
-    "heroku-postbuild":"npm install --prefix EziTicket_Backend",
+    "heroku-postbuild":"cd ./EziTicket_Backend && npm install",
     "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
