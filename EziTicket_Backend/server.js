@@ -71,3 +71,4 @@ app.listen(process.env.PORT || 3000, ()=>{ // when deploying the server will tel
     console.log("server successfully started on port 3000....");
 });
 
+// todo : check the middleware controller and apply it to the right places....
