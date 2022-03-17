@@ -4,7 +4,7 @@
   "description": "mobileApp for for purchasing tickets..",
   "main": "server.js",  
   "scripts": {
-    "start": "node server.js --prefix EziTicket_Backend",
+    "start": "cd ./EziTicket_Backend && node server.js",
     "heroku-postbuild":"npm install --prefix EziTicket_Backend",
     "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
