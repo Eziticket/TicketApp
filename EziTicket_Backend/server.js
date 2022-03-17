@@ -23,22 +23,6 @@ const auth = require("./middleWares/auth");
 const errors = require("./middleWares/error");
 
 
-
-
-
-/* const pw = "AkoColSam19";
-const dbname = "eziTicketDatabase";
- */
-// connecting to cloud database(ie. MongoDB Atlas....)
-/* mongoose.connect(
-"mongodb+srv://Ezi_Admin:AkoColSam19@eziticket.wnavf.mongodb.net/eziTicketDatabase?retryWrites=true&w=majority", 
-    {
-      useNewUrlParser: true,
-      //useFindAndModify: false,
-      useUnifiedTopology: true
-    }
-  );
- */
   mongoose.connect(process.env.LOCAL_DATABASE_URL, { useNewUrlParser: true});// connecting to local database....
 
   // verifying if mongodb connection above was successful.....
@@ -87,6 +71,3 @@ app.listen(process.env.PORT || 3000, ()=>{ // when deploying the server will tel
     console.log("server successfully started on port 3000....");
 });
 
-// POST /company/
-// GET /company/get-complaints/:company_id
-// GET /company/booking/:company_id
