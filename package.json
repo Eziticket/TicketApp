@@ -1,0 +1,26 @@
+{
+  "name": "eziticketapp",
+  "version": "1.0.0",
+  "description": "mobileApp for for purchasing tickets..",
+  "main": "index.js",  "scripts": {
+    "start": "cd ./EziTicket_Backend && node server.js",
+    "heroku-postbuild":"cd ./EziTicket_Backend && npm install",
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eziticket/TicketApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eziticket/TicketApp/issues"
+  },
+  "homepage": "https://github.com/Eziticket/TicketApp#readme"
+}
